@@ -1,0 +1,54 @@
+.main-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  font-family: 'Bebas Neue'; 
+}
+
+.perfection-text{
+  font-size: 20px;
+  font-weight: 100;
+}
+.font-family span{
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #0f0f0f;
+  text-align: left;
+}
+footer{
+  background-color: #0f0f0f;
+}
+.white-color{
+  color: white !important;
+}
+.sans{
+  font-family: 'sans-serif';
+}
+.icon{
+  font-size: 22px !important;
+  @extend .sans
+}
+.img-thumbnail{
+  height: 250px;
+}
+.ad-image{
+  height: 150px;
+}
+.main-ad-image{
+  height:auto;
+}
+@media (min-width: 320px){
+  .justify-content-md-center {
+      -ms-flex-pack: center!important;
+      justify-content: center!important;
+  }
+}
